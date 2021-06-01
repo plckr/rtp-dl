@@ -1,2 +1,15 @@
 # rtp-dl
-Python script to download RTP Play videos
+This python script downloads each episode of the program, if more than one part available, it'll merge into a single file and finally convert it to mkv with correct language and title.
+
+## usage
+```
+rtp-dl.py p1222
+```
+OR
+```
+rtp-dl.py 1222
+```
+
+## requirements
+In order for this script to work, make sure you have all the python dependencies, listed in `requirements.txt`
+Also, you need to have `ffmpeg` available in the command line
