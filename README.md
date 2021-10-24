@@ -3,11 +3,7 @@ This python script downloads each episode of the program, if more than one part 
 
 ## usage
 ```
-rtp-dl.py p1222
-```
-OR
-```
-rtp-dl.py 1222
+rtp-dl.py [ProgramID (Example: p1222)] [-e EpisodeNumber: Optional] [-s SeasonNumber: Optional]
 ```
 
 ## requirements
